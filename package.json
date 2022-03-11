@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/BT-ICD/NodeJSLearningExamples#readme",
   "dependencies": {
+    "express": "^4.17.3",
     "mongodb": "^4.4.1"
   }
 }
