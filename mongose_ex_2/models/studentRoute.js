@@ -11,6 +11,15 @@ router.get('/',(req,res)=>{
         return res.json({data});
     });
 });
+router.post('/', (req, res)=>{
+    console.log(req.body);
+    Students.create(req.body, (err, data)=>{
+        if (err){
+            return res.send(err);
+        } 
+        return res.json(data);
+    });
+});
 
 
 module.exports = router;

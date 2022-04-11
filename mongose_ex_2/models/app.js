@@ -2,6 +2,8 @@
  * Leraning: About seperate file for model, route 
  * References:
  * https://github.com/hemakshis/Basic-MERN-Stack-App/blob/master/app.js
+ * https://github.com/mongodb-developer/mern-stack-example/blob/main/mern/server/db/conn.js
+ * https://github.com/didinj/mern-stack-crud/blob/master/routes/book.js
  */
 const express = require('express');
 const mongoose = require('mongoose');
